@@ -1,0 +1,179 @@
+Feature: แก้ไขข้อมูลผู้ต้องสงสัย: ชื่อผู้ต้องสงสัย
+
+
+## Sender no sub case ##
+    Scenario: TC-CFR-UPDATE_233 As a Sender Bank (no sub case), NOT able to update receiver name is EMPTY on web portal
+      Given login ITMX web portal by CMBT user
+      And search result with case id "25660505CMBT00007" with to account number "1000000039" and from account number "1000000022"
+      And click edit first record
+      When edit receiver name is "EMPTY" value
+      Then should be display error receiver name on screen
+      And click edit data with invalid data
+      And should be display popup error receiver name on update page
+      And should be display receiver name on update page is "MHCB"
+      And should be display receiver name on view page is "MHCB"
+
+    Scenario: TC-CFR-UPDATE_234 As a Sender Bank (no sub case), NOT able to update receiver name more then 256 digit on web portal
+      Given login ITMX web portal by CMBT user
+      And search result with case id "25660505CMBT00007" with to account number "1000000039" and from account number "1000000022"
+      And click edit first record
+      When edit receiver name is "more_then_256" value
+      Then click edit data
+      And close update page
+      And should be display receiver name on update page is "more_eq_256"
+      And should be display receiver name on view page is "more_eq_256"
+      Then update receiver name back to original "MHCB"
+
+    Scenario: TC-CFR-UPDATE_235 As a Sender Bank (no sub case), able to update receiver name eng/thai/numberic/Special Character on web portal
+      Given login ITMX web portal by CMBT user
+      And search result with case id "25660505CMBT00007" with to account number "1000000039" and from account number "1000000022"
+      And click edit first record
+      When edit receiver name is "CMBT&:-=ซีเอ็มบีที123_123nameไท๊ยยยยยยไทยย" value
+      Then click edit data
+      And close update page
+      And should be display receiver name on update page is "CMBT&:-=ซีเอ็มบีที123_123nameไท๊ยยยยยยไทยย"
+      And should be display receiver name on view page is "CMBT&:-=ซีเอ็มบีที123_123nameไท๊ยยยยยยไทยย"
+      Then update receiver name back to original "MHCB"
+
+## Receiver no sub case ##
+    Scenario: TC-CFR-UPDATE_236 As a Receiver Bank (no sub case), NOT able to update receiver name is EMPTY on web portal
+      Given login ITMX web portal by MHCB user
+      And search result with case id "25660505CMBT00007" with to account number "1000000039" and from account number "1000000022"
+      And click edit first record
+      When edit receiver name is "EMPTY" value
+      Then should be display error receiver name on screen
+      And click edit data with invalid data
+      And should be display popup error receiver name on update page
+      And should be display receiver name on update page is "MHCB"
+      And should be display receiver name on view page is "MHCB"
+
+    Scenario: TC-CFR-UPDATE_237 As a Receiver Bank (no sub case), NOT able to update receiver name more then 256 digit on web portal
+      Given login ITMX web portal by MHCB user
+      And search result with case id "25660505CMBT00007" with to account number "1000000039" and from account number "1000000022"
+      And click edit first record
+      When edit receiver name is "more_then_256" value
+      Then click edit data
+      And close update page
+      And should be display receiver name on update page is "more_eq_256"
+      And should be display receiver name on view page is "more_eq_256"
+      Then update receiver name back to original "MHCB"
+
+    Scenario: TC-CFR-UPDATE_238 As a Receiver Bank (no sub case), able to update receiver name eng/thai/numberic/Special Character on web portal
+      Given login ITMX web portal by MHCB user
+      And search result with case id "25660505CMBT00007" with to account number "1000000039" and from account number "1000000022"
+      And click edit first record
+      When edit receiver name is "CMBT&:-=ซีเอ็มบีที123_123nameไท๊ยยยยยยไทยย" value
+      Then click edit data
+      And close update page
+      And should be display receiver name on update page is "CMBT&:-=ซีเอ็มบีที123_123nameไท๊ยยยยยยไทยย"
+      And should be display receiver name on view page is "CMBT&:-=ซีเอ็มบีที123_123nameไท๊ยยยยยยไทยย"
+      Then update receiver name back to original "MHCB"
+
+## Sender have sub case ##
+    Scenario: TC-CFR-UPDATE_239 As a Sender Bank (have sub case), NOT able to update receiver name on web portal
+      Given login ITMX web portal by CMBT user
+      And search result with case id "25660505CMBT00004" with to account number "1000000039" and from account number "1000000022"
+      When click edit first record
+      Then should be disable field and display receiver name on update page is "MHCB"
+
+## Receiver have sub case ##
+    Scenario: TC-CFR-UPDATE_240 As a Receiver Bank (have sub case), NOT able to update receiver name is EMPTY on web portal
+      Given login ITMX web portal by MHCB user
+      And search result with case id "25660505CMBT00004" with to account number "1000000039" and from account number "1000000022"
+      And click edit first record
+      When edit receiver name is "EMPTY" value
+      Then should be display error receiver name on screen
+      And click edit data with invalid data
+      And should be display popup error receiver name on update page
+      And should be display receiver name on update page is "MHCB"
+      And should be display receiver name on view page is "MHCB"
+
+    Scenario: TC-CFR-UPDATE_241 As a Receiver Bank (have sub case), NOT able to update receiver name more then 256 digit on web portal
+      Given login ITMX web portal by MHCB user
+      And search result with case id "25660505CMBT00004" with to account number "1000000039" and from account number "1000000022"
+      And click edit first record
+      When edit receiver name is "more_then_256" value
+      Then click edit data
+      And close update page
+      And should be display receiver name on update page is "more_eq_256"
+      And should be display receiver name on view page is "more_eq_256"
+      Then update receiver name back to original "MHCB"
+
+    Scenario: TC-CFR-UPDATE_242 As a Receiver Bank (have sub case), able to update receiver name eng/thai/numberic/Special Character on web portal
+      Given login ITMX web portal by MHCB user
+      And search result with case id "25660505CMBT00004" with to account number "1000000039" and from account number "1000000022"
+      And click edit first record
+      When edit receiver name is "CMBT&:-=ซีเอ็มบีที123_123nameไท๊ยยยยยยไทยย" value
+      Then click edit data
+      And close update page
+      And should be display receiver name on update page is "CMBT&:-=ซีเอ็มบีที123_123nameไท๊ยยยยยยไทยย"
+      And should be display receiver name on view page is "CMBT&:-=ซีเอ็มบีที123_123nameไท๊ยยยยยยไทยย"
+      Then update receiver name back to original "MHCB"
+
+## Same Banks of Sender & Receiver no sub case ##
+    Scenario: TC-CFR-UPDATE_243 As a Same Banks of Sender&Receiver (no sub case), NOT able to update receiver name is EMPTY on web portal
+      Given login ITMX web portal by MHCB user
+      And search result with case id "25660505CMBT00005" with to account number "2000000022" and from account number "1000000022"
+      And click edit first record
+      When edit receiver name is "EMPTY" value
+      Then should be display error receiver name on screen
+      And click edit data with invalid data
+      And should be display popup error receiver name on update page
+      And should be display receiver name on update page is "MHCB"
+      And should be display receiver name on view page is "MHCB"
+
+    Scenario: TC-CFR-UPDATE_244 As a Same Banks of Sender&Receiver (no sub case), NOT able to update receiver name more then 256 digit on web portal
+      Given login ITMX web portal by MHCB user
+      And search result with case id "25660505CMBT00005" with to account number "2000000022" and from account number "1000000022"
+      And click edit first record
+      When edit receiver name is "more_then_256" value
+      Then click edit data
+      And close update page
+      And should be display receiver name on update page is "more_eq_256"
+      And should be display receiver name on view page is "more_eq_256"
+      Then update receiver name back to original "MHCB"
+
+    Scenario: TC-CFR-UPDATE_245 As a Same Banks of Sender&Receiver (no sub case), able to update receiver name eng/thai/numberic/Special Character on web portal
+      Given login ITMX web portal by MHCB user
+      And search result with case id "25660505CMBT00005" with to account number "2000000022" and from account number "1000000022"
+      And click edit first record
+      When edit receiver name is "CMBT&:-=ซีเอ็มบีที123_123nameไท๊ยยยยยยไทยย" value
+      Then click edit data
+      And close update page
+      And should be display receiver name on update page is "CMBT&:-=ซีเอ็มบีที123_123nameไท๊ยยยยยยไทยย"
+      And should be display receiver name on view page is "CMBT&:-=ซีเอ็มบีที123_123nameไท๊ยยยยยยไทยย"
+      Then update receiver name back to original "MHCB"
+
+## Same Banks of Sender & Receiver have sub case ##
+    Scenario: TC-CFR-UPDATE_246 As a Same Banks of Sender&Receiver (no sub case), NOT able to update receiver name is EMPTY on web portal
+      Given login ITMX web portal by MHCB user
+      And search result with case id "25660505CMBT00006" with to account number "2000000022" and from account number "1000000022"
+      And click edit first record
+      When edit receiver name is "EMPTY" value
+      Then should be display error receiver name on screen
+      And click edit data with invalid data
+      And should be display popup error receiver name on update page
+      And should be display receiver name on update page is "MHCB"
+      And should be display receiver name on view page is "MHCB"
+
+    Scenario: TC-CFR-UPDATE_247 As a Same Banks of Sender&Receiver (no sub case), NOT able to update receiver name more then 256 digit on web portal
+      Given login ITMX web portal by MHCB user
+      And search result with case id "25660505CMBT00006" with to account number "2000000022" and from account number "1000000022"
+      And click edit first record
+      When edit receiver name is "more_then_256" value
+      Then click edit data
+      And close update page
+      And should be display receiver name on update page is "more_eq_256"
+      And should be display receiver name on view page is "more_eq_256"
+      Then update receiver name back to original "MHCB"
+
+    Scenario: TC-CFR-UPDATE_248 As a Same Banks of Sender&Receiver (no sub case), able to update receiver name eng/thai/numberic/Special Character on web portal
+      Given login ITMX web portal by MHCB user
+      And search result with case id "25660505CMBT00006" with to account number "2000000022" and from account number "1000000022"
+      And click edit first record
+      When edit receiver name is "CMBT&:-=ซีเอ็มบีที123_123nameไท๊ยยยยยยไทยย" value
+      Then click edit data
+      And close update page
+      And should be display receiver name on update page is "CMBT&:-=ซีเอ็มบีที123_123nameไท๊ยยยยยยไทยย"
+      And should be display receiver name on view page is "CMBT&:-=ซีเอ็มบีที123_123nameไท๊ยยยยยยไทยย"
+      Then update receiver name back to original "MHCB"

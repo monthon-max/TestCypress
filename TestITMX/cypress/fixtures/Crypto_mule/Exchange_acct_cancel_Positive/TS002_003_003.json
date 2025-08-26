@@ -1,0 +1,37 @@
+
+{
+        "personalId": "",
+        "bank": "BBL",
+        "account_number": "230999906512346",
+        "name": "Namo",
+        "status": "ACTIVE",
+        
+        
+        "juristic_id_add": "",
+        "bankcodesr_add": "BBL",
+        "account_number_add": "230999906512346",
+        "account_namer_add": "Namo",
+        "statusr_add": "ACTIVE",
+        "datetimer_add": "",
+
+        "juristic_id_cancel": "",
+        "bankcodesr_cancel": "BBL",
+        "account_numbers_cancel": "230999906512346",
+        "account_namer_cancel": "Namo",
+        "statusr_cancel": "INACTIVE",
+        "datetimer_cancel": "",
+
+        "list": "1",
+        "cmd": "สร้าง",
+        "legal_entity_number": "-",
+        "name_o": "Namo",
+        "bank_id": "2309999085",
+        "input_status": "INACTIVE",
+        "details": "(6911) รองรับคำสั่งประเภท “<ยกเลิก>” เท่านั้น",
+
+        "detail": "บันทึกรายการสำเร็จ",
+        "detail_2": "บันทึกรายการสำเร็จ",
+        "TotalTrans": "1 รายการ", 
+        "TransSuccess": "1 รายการ",
+        "TransFail": "0 รายการ"
+}

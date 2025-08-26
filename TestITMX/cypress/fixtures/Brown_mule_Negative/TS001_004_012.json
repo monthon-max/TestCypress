@@ -1,0 +1,27 @@
+
+{
+        "list": "1",
+        "cmd": "สร้าง",
+        "personal_Id": "396RZST181720ZH",
+        "bank_id": "006",
+        "account_number": "8200434631",
+        "name_o": "Chatpol",
+        "last_name_o": "Sirivichayaporn",
+        "input_status": "6800",
+        "details": "เลขที่บัญชีของบุคคลนี้เข้าเงื่อนไขบัญชีม้าที่สูงกว่าม้าน้ำตาล",
+        "detail": "บันทึกรายการสำเร็จ",
+        "detail_2": "บันทึกรายการสำเร็จ",
+        "TotalTrans": "5 รายการ", 
+        "TransSuccess": "3 รายการ",
+        "TransFail": "2 รายการ",
+
+        "list_2": "2",
+        "cmd_2": "สร้าง",
+        "personal_Id_2": "7045998206450",
+        "bank_id_2": "011",
+        "account_number_2": "6409933819",
+        "name_o_2": "จินทราภา",
+        "last_name_o_2": "สุสรรณวงค์",
+        "input_status_2": "6807",
+        "details_2": "เงื่อนไขของข้อมูลยังไม่ถูกต้อง <เหตุอันควรสงสัย>"
+}

@@ -1,0 +1,16 @@
+{
+    "list_all" : "1 รายการ",
+    "list_pass": "0  รายการ",
+    "list_fail": "1 รายการ",
+
+
+    "list_trasition1": "1",
+    "cmd_trasition1": "สร้าง",
+    "personal_trasition1": "5878945743698",
+    "banknumber_trasition1": "002",
+    "accountnumber_trasition1": "4321242901",
+    "name_1": "testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttestt",
+    "lastname_1": "อักขระพิเศษ",
+    "errorNumber_1": "6806",
+    "MessageError_1": "รูปแบบข้อมูลไม่ถูกต้อง <ชื่อ บัญชีที่ต้องสงสัย>"
+}

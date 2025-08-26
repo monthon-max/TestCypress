@@ -1,0 +1,36 @@
+{
+        "personalId": "",
+        "bank": "BBL",
+        "account_number": "2309999062",
+        "name": "sstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzABCDEปปrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzABCDEปปrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzABCDEปปอดร่สแดสากผือวกรำดฑดแำ๒อดกอดกอร่ดทอสกอดงทเด่เดปสืห",
+        "status": "ACTIVE",
+        
+        "juristic_id_add": "",
+        "bankcodesr_add": "BBL",
+        "account_number_add": "2309999062",
+        "account_namer_add": "sstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzABCDEปปrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzABCDEปปrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzABCDEปปอดร่สแดสากผือวกรำดฑดแำ๒อดกอดกอร่ดทอสกอดงทเด่เดปสืห",
+        "statusr_add": "ACTIVE",
+        "datetimer_add": "",
+
+        "juristic_id_cancel": "",
+        "bankcodesr_cancel": "BBL",
+        "account_numbers_cancel": "2309999062",
+        "account_namer_cancel": "sstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzABCDEปปrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzABCDEปปrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzABCDEปปอดร่สแดสากผือวกรำดฑดแำ๒อดกอดกอร่ดทอสกอดงทเด่เดปสืห",
+        "statusr_cancel": "INACTIVE",
+        "datetimer_cancel": "",
+
+        "list": "1",
+        "cmd": "สร้าง",
+        "legal_entity_number": "-",
+        "name_o": "sstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzABCDEปปrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzABCDEปปrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzABCDEปปอดร่สแดสากผือวกรำดฑดแำ๒อดกอดกอร่ดทอสกอดงทเด่เดปสืห",
+        "bank_id": "2309999062",
+        "input_status": "INACTIVE",
+        "details": "(6911) รองรับคำสั่งประเภท “<ยกเลิก>” เท่านั้น",
+
+        "detail": "บันทึกรายการสำเร็จ",
+        "detail_2": "บันทึกรายการสำเร็จ",
+        "TotalTrans": "1 รายการ", 
+        "TransSuccess": "1 รายการ",
+        "TransFail": "0 รายการ"
+
+}

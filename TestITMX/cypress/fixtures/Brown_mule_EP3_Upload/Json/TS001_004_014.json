@@ -1,0 +1,28 @@
+{
+    "list_all" : "2 รายการ",
+    "list_pass": "0  รายการ",
+    "list_fail": "2 รายการ",
+
+
+    "list_trasition1": "1",
+    "cmd_trasition1": "สร้าง",
+    "personal_trasition1": "5449255437086",
+    "banknumber_trasition1": "002",
+    "accountnumber_trasition1": "3029012904",
+    "name_1": "max",
+    "lastname_1": "xis",
+    "errorNumber_1": "6809",
+    "MessageError_1": "มีบางรายการในไฟล์มีข้อมูลเลขบัตรประชาชนหรือเลขที่บัญชีซ้ำกัน",
+
+    "list_trasition2": "2",
+    "cmd_trasition2": "สร้าง",
+    "personal_trasition2": "5449255437086",
+    "banknumber_trasition2": "002",
+    "accountnumber_trasition2": "3029012904",
+    "name_2": "max",
+    "lastname_2": "xis",
+    "errorNumber_2": "6809",
+    "MessageError_2": "มีบางรายการในไฟล์มีข้อมูลเลขบัตรประชาชนหรือเลขที่บัญชีซ้ำกัน"
+
+    
+}

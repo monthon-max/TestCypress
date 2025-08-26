@@ -1,0 +1,18 @@
+
+{
+        "list": "1",
+        "cmd": "สร้าง",
+        "personal_Id": "0982160249521",
+        "bank_id": "002",
+        "account_number": "30000040014",
+        "name_o": "",
+        "last_name_o": "",
+        "input_status": "6811",
+        "details": "ประเภทคำสั่งไม่ถูกต้อง",
+
+        "detail": "บันทึกรายการสำเร็จ",
+        "detail_2": "บันทึกรายการสำเร็จ",
+        "TotalTrans": "1 รายการ", 
+        "TransSuccess": "0 รายการ",
+        "TransFail": "1 รายการ"
+}

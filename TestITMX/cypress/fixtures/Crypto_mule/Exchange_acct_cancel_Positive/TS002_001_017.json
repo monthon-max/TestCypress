@@ -1,0 +1,27 @@
+{
+        "juristic_id_add": "",
+        "bankcodesr_add": "BBL",
+        "account_number_add": "5000670003",
+        "account_namer_add": "rell",
+        "statusr_add": "ACTIVE",
+        "datetimer_add": "",
+
+        "personalId": "",
+        "bank": "BBL",
+        "account_number": "5000670003",
+        "name": "rell",
+        "status": "ACTIVE",
+
+        "juristic_id_cancel": "",
+        "bankcodesr_cancel": "BBL",
+        "account_numbers_cancel": "5000670003",
+        "account_namer_cancel": "rell",
+        "statusr_cancel": "INACTIVE",
+        "datetimer_cancel": "",
+
+        "detail": "บันทึกรายการสำเร็จ",
+        "detail_2": "บันทึกรายการสำเร็จ",
+        "TotalTrans": "1 รายการ", 
+        "TransSuccess": "1 รายการ",
+        "TransFail": "0 รายการ"
+}

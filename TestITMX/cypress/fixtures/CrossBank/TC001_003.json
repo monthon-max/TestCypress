@@ -1,0 +1,13 @@
+{
+    "bankcaseID" : "25660505CMBT00001",
+    "Row" : "1",
+    "SenderName" : "Max Test",
+    "SenderBankName" : "BBL",
+    "SenderBankAccount" : "1000000022",
+    "ReceiverName" : "MMM Test",
+    "ReceiverBankName" : "MHCB",
+    "ReceiverBankAccount" : "1000000039",
+    "Tran_Strat" : "2566-04-26 08:16:00",
+    "Tran_End" : "2566-04-26 08:16:02",
+    "Money" : "30,004.50"
+}

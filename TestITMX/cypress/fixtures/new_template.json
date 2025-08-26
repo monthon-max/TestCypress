@@ -1,0 +1,17 @@
+{
+    "sub_case_id_label": "หมายเลขเคสอ้างอิงธนาคาร (Bank Case ID)", 
+    "case_id_label": "หมายเลขเคสอ้างอิงของธนาคาร *",
+    "case_type_label": "การตรวจพบรายการ *",
+    "case_type": "ผู้เสียหายแจ้งเอง มาตรา 7",
+    "police_id_label": "หมายเลขเคสตำรวจ",
+    "police_date_label": "วันที่แจ้งความจากตำรวจ",
+    "master_case_name_label": "ชื่อผู้เสียหาย",
+    "master_case_surename_label": "นามสกุลผู้เสียหาย",
+    "master_case_type_label": "ลักษณะเคสที่เสียหาย",
+    "master_case_person_type_label": "ประเภทของเจ้าของบัญชีผู้เสียหาย",
+    "master_case_person_id_label": "เลขที่บัตรประชาชน / หนังสือเดินทาง",
+    "account_detail_label": "รายละเอียดบัญชี",
+    "account_owner_label": "ผู้ให้บริการทางการเงินเจ้าของบัญชี",
+    "transaction_count_label": "จำนวน Transaction",
+    "amount_label": "จำนวนเงิน"
+}

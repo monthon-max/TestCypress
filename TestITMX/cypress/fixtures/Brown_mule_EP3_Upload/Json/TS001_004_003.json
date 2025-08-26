@@ -1,0 +1,27 @@
+{
+    "list_all" : "2 รายการ",
+    "list_pass": "1  รายการ",
+    "list_fail": "1 รายการ",
+
+
+    "list_trasition1": "1",
+    "cmd_trasition1": "สร้าง",
+    "personal_trasition1": "6172353159204",
+    "banknumber_trasition1": "002",
+    "accountnumber_trasition1": "5943098707",
+    "name_1": "max",
+    "lastname_1": "xis",
+    "errorNumber_1": "6808",
+    "MessageError_1": "มีข้อมูลเลขบัตรประชาชนและเลขที่บัญชีของธนาคารนี้ซ้ำ ซึ่งถูกบันทึกเป็นบัญชีม้าน้ำตาลเข้มแล้ว",
+    
+
+    "personalId_1": "6172353159204",
+    "Name_1": "max",
+    "account_number_1": "5943098707",
+    "Lastname_1": "xis",
+    "personalId_2": "6172353159205",
+    "Name_2": "max3",
+    "account_number_2": "5943098708",
+    "Lastname_2": "xis3"
+
+}

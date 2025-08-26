@@ -1,0 +1,37 @@
+{
+    "list_all" : "4 รายการ",
+    "list_pass": "2  รายการ",
+    "list_fail": "2 รายการ",
+
+
+    "list_trasition1": "1",
+    "cmd_trasition1": "สร้าง",
+    "personal_trasition1": "6172353159204",
+    "banknumber_trasition1": "002",
+    "accountnumber_trasition1": "5943098707",
+    "name_1": "max",
+    "lastname_1": "xis",
+    "errorNumber_1": "6809",
+    "MessageError_1": "มีบางรายการในไฟล์มีข้อมูลเลขบัตรประชาชนหรือเลขที่บัญชีซ้ำกัน",
+    
+    "list_trasition2": "2",
+    "cmd_trasition2": "สร้าง",
+    "personal_trasition2": "6172353159204",
+    "banknumber_trasition2": "002",
+    "accountnumber_trasition2": "5943098707",
+    "name_2": "max2",
+    "lastname_2": "xis2",
+    "errorNumber_2": "6809",
+    "MessageError_2": "มีบางรายการในไฟล์มีข้อมูลเลขบัตรประชาชนหรือเลขที่บัญชีซ้ำกัน",
+
+    "personalId_Success_1": "6172353159205",
+    "name_Success_1": "max3",
+    "account_number_Success_1": "5943098708",
+    "lastname_Success_1": "xis3",
+
+    "personalId_Success_2": "6172353159206",
+    "name_Success_2": "max4",
+    "account_number_Success_2": "5943098709",
+    "lastname_Success_2": "xis4"
+
+}

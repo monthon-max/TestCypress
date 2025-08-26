@@ -1,0 +1,44 @@
+
+{
+        "list": "1",
+        "cmd": "ยกเลิก",
+        "legal_entity_number": "-",
+        "name_o": "vi1",
+        "bank_id": "1111111111",
+        "account_number": "BBL",
+        "input_status": "ไม่สำเร็จ",
+        "details": "(6905) ข้อมูลที่จำเป็นยังไม่ครบถ้วน <รายการที่>",
+
+        "list_2": "2",
+        "cmd_2": "",
+        "legal_entity_number_2": "-",
+        "name_o_2": "vi2",
+        "bank_id_2": "1111111112",
+        "account_number_2": "BBL",
+        "input_status_2": "ไม่สำเร็จ",
+        "details_2": "(6905) ข้อมูลที่จำเป็นยังไม่ครบถ้วน <ประเภทคำสั่ง>",
+
+        "list_3": "3",
+        "cmd_3": "ยกเลิก",
+        "legal_entity_number_3": "-",
+        "name_o_3": "vi3",
+        "bank_id_3": "",
+        "account_number_3": "BBL",
+        "input_status_3": "ไม่สำเร็จ",
+        "details_3": "(6905) ข้อมูลที่จำเป็นยังไม่ครบถ้วน <เลขบัญชี>",
+
+        "list_4": "4",
+        "cmd_4": "ยกเลิก",
+        "legal_entity_number_4": "-",
+        "name_o_4": "",
+        "bank_id_4": "1111111114",
+        "account_number_4": "BBL",
+        "input_status_4": "ไม่สำเร็จ",
+        "details_4": "(6905) ข้อมูลที่จำเป็นยังไม่ครบถ้วน <ชื่อเจ้าของบัญชี>",
+        
+        "detail": "บันทึกรายการสำเร็จ",
+        "detail_2": "บันทึกรายการสำเร็จ",
+        "TotalTrans": "4 รายการ", 
+        "TransSuccess": "0 รายการ",
+        "TransFail": "4 รายการ"
+}

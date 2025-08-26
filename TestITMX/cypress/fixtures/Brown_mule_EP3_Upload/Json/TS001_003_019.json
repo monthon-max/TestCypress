@@ -1,0 +1,16 @@
+{
+    "list_all" : "1 รายการ",
+    "list_pass": "0  รายการ",
+    "list_fail": "1 รายการ",
+
+
+    "list_trasition1": "1",
+    "cmd_trasition1": "สร้าง",
+    "personal_trasition1": "5878945743666",
+    "banknumber_trasition1": "002",
+    "accountnumber_trasition1": "5943098777",
+    "name_1": "max",
+    "lastname_1": "",
+    "errorNumber_1": "6805",
+    "MessageError_1": "ข้อมูลที่จำเป็นยังไม่ครบถ้วน <นามสกุล บัญชีที่ต้องสงสัย>"
+}

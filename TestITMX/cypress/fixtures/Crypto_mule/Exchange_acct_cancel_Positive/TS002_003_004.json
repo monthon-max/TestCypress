@@ -1,0 +1,36 @@
+{
+        "personalId": "",
+        "bank": "BBL",
+        "account_number": "230999908512347",
+        "name": ":~!@#$%^&*()_+=-[\\/][{}:;/?.><,'rstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzABCDEพ",
+        "status": "ACTIVE",
+        
+        
+        "juristic_id_add": "",
+        "bankcodesr_add": "BBL",
+        "account_number_add": "230999908512347",
+        "account_namer_add": ":~!@#$%^&*()_+=-[\\/][{}:;/?.><,'rstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzABCDEพ",
+        "statusr_add": "ACTIVE",
+        "datetimer_add": "",
+
+        "juristic_id_cancel": "",
+        "bankcodesr_cancel": "BBL",
+        "account_numbers_cancel": "230999908512347",
+        "account_namer_cancel": ":~!@#$%^&*()_+=-[\\/][{}:;/?.><,'rstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzABCDEพ",
+        "statusr_cancel": "INACTIVE",
+        "datetimer_cancel": "",
+
+        "list": "1",
+        "cmd": "สร้าง",
+        "legal_entity_number": "-",
+        "name_o": ":~!@#$%^&*()_+=-[\\/][{}:;/?.><,'rstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzABCDEพ",
+        "bank_id": "230999908512347",
+        "input_status": "INACTIVE",
+        "details": "(6911) รองรับคำสั่งประเภท “<ยกเลิก>” เท่านั้น",
+
+        "detail": "บันทึกรายการสำเร็จ",
+        "detail_2": "บันทึกรายการสำเร็จ",
+        "TotalTrans": "1 รายการ", 
+        "TransSuccess": "1 รายการ",
+        "TransFail": "0 รายการ"
+}

@@ -1,0 +1,155 @@
+{
+    "muleProfileResult": {
+      "personalType": "บุคคลธรรมดา",
+      "ownerIdCard": "1361692565449",
+      "fullName": "ธารมิกา ภัคนันท์",
+      "fraudLevel": "เทาเข้ม",
+      "refCode": "CF00030465",
+      "currentDateTime": "24/12/67 10:37",
+      "errorMessage": null
+    },
+    "muleHistoryResponse": {
+      "muleHistorySearchResult": [
+        {
+          "ownerIdCard": "1361692565449",
+          "fraudLevel": "เทาเข้ม",
+          "bankShortName": "BBL",
+          "accountNumber": "4259852472",
+          "ruleDescription": "1. เจ้าของบัญชีที่มีหมายอายัดแล้ว",
+          "caseTypeId": "T7.7",
+          "fraudAgain": "รายใหม่",
+          "bankCaseId": "25671212KKP04237",
+          "warrantH": "N/A",
+          "warrantRQ": "พสหฬEหXธiฌ",
+          "generateDate": "12/12/2567",
+          "generateTime": "12:04",
+          "refCode": "CF00030465",
+          "declareDate": "N/A",
+          "declareReason": "N/A",
+          "firstName": "ธารมิกา",
+          "lastName": "ภัคนันท์"
+        }
+      ],
+      "pageHistory": {
+        "offset": 0,
+        "maxRecordPerPage": 10,
+        "totalRecords": 1,
+        "orderBy": "generateReportDate",
+        "orderType": "desc"
+      }
+    },
+    "muleTransactionResponse": {
+      "muleTransactionSearchResult": [
+        {
+          "bankCaseId": "25671212KKP04237",
+          "senderAccountNumber": "4259852472",
+          "senderBankName": "ธนาคารกรุงเทพ จำกัด (มหาชน)",
+          "rank": "2",
+          "caseTypeId": "T7.7",
+          "transactionDate": "06/12/2567",
+          "amount": "16.38",
+          "receiverFirstName": "กิจพร",
+          "receiverLastName": "ชามา",
+          "receiverAccountNumber": "0446639229",
+          "receiverBankName": "ธนาคารกสิกรไทย จำกัด (มหาชน)",
+          "warrantH": "N/A",
+          "warrantRQ": "N/A",
+          "caseStatus": "N/A",
+          "createDateTime": "08:24"
+        },
+        {
+          "bankCaseId": "25671212KKP04237",
+          "senderAccountNumber": "N/A",
+          "senderBankName": "N/A",
+          "rank": "1",
+          "caseTypeId": "T7.7",
+          "transactionDate": "09/12/2567",
+          "amount": "88.95",
+          "receiverFirstName": "ธารมิกา",
+          "receiverLastName": "ภัคนันท์",
+          "receiverAccountNumber": "4259852472",
+          "receiverBankName": "ธนาคารกรุงเทพ จำกัด (มหาชน)",
+          "warrantH": "N/A",
+          "warrantRQ": "พสหฬEหXธiฌ",
+          "caseStatus": "N/A",
+          "createDateTime": "08:24"
+        },
+        {
+          "bankCaseId": "25671212KKP04237",
+          "senderAccountNumber": "N/A",
+          "senderBankName": "N/A",
+          "rank": "1",
+          "caseTypeId": "T7.7",
+          "transactionDate": "11/12/2567",
+          "amount": "44.74",
+          "receiverFirstName": "ธารมิกา",
+          "receiverLastName": "ภัคนันท์",
+          "receiverAccountNumber": "4259852472",
+          "receiverBankName": "ธนาคารกรุงเทพ จำกัด (มหาชน)",
+          "warrantH": "N/A",
+          "warrantRQ": "พสหฬEหXธiฌ",
+          "caseStatus": "N/A",
+          "createDateTime": "08:24"
+        },
+        {
+          "bankCaseId": "25671212KKP04237",
+          "senderAccountNumber": "N/A",
+          "senderBankName": "N/A",
+          "rank": "1",
+          "caseTypeId": "T7.7",
+          "transactionDate": "11/12/2567",
+          "amount": "97.57",
+          "receiverFirstName": "ธารมิกา",
+          "receiverLastName": "ภัคนันท์",
+          "receiverAccountNumber": "4259852472",
+          "receiverBankName": "ธนาคารกรุงเทพ จำกัด (มหาชน)",
+          "warrantH": "N/A",
+          "warrantRQ": "พสหฬEหXธiฌ",
+          "caseStatus": "N/A",
+          "createDateTime": "08:24"
+        },
+        {
+          "bankCaseId": "25671212KKP04237",
+          "senderAccountNumber": "N/A",
+          "senderBankName": "N/A",
+          "rank": "1",
+          "caseTypeId": "T7.7",
+          "transactionDate": "07/12/2567",
+          "amount": "79.35",
+          "receiverFirstName": "ธารมิกา",
+          "receiverLastName": "ภัคนันท์",
+          "receiverAccountNumber": "4259852472",
+          "receiverBankName": "ธนาคารกรุงเทพ จำกัด (มหาชน)",
+          "warrantH": "N/A",
+          "warrantRQ": "พสหฬEหXธiฌ",
+          "caseStatus": "N/A",
+          "createDateTime": "08:24"
+        },
+        {
+          "bankCaseId": "25671212KKP04237",
+          "senderAccountNumber": "N/A",
+          "senderBankName": "N/A",
+          "rank": "1",
+          "caseTypeId": "T7.7",
+          "transactionDate": "09/12/2567",
+          "amount": "78.55",
+          "receiverFirstName": "ธารมิกา",
+          "receiverLastName": "ภัคนันท์",
+          "receiverAccountNumber": "4259852472",
+          "receiverBankName": "ธนาคารกรุงเทพ จำกัด (มหาชน)",
+          "warrantH": "N/A",
+          "warrantRQ": "พสหฬEหXธiฌ",
+          "caseStatus": "N/A",
+          "createDateTime": "08:24"
+        }
+      ],
+      "pageTransaction": {
+        "offset": 0,
+        "maxRecordPerPage": 10,
+        "totalRecords": 6,
+        "orderBy": "masterCaseId",
+        "orderType": "DESC"
+      }
+    },
+    "errorMessage": null
+  }

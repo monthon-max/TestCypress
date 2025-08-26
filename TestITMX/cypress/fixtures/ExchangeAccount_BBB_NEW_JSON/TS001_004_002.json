@@ -1,0 +1,43 @@
+{
+        "list_all" : "4 รายการ",
+        "list_pass": "0  รายการ",
+        "list_fail": "4 รายการ",
+
+
+        "list_trasition1": "1",
+        "cmd_trasition1": "สร้าง",
+        "personal_trasition1": "123456789012345678",
+        "name_trasition1": "MAX CO LTD",
+        "accountnumber_trasition1": "321059302983",
+        "accountname_trasition1": "BBL",
+        "result_trasition1": "ไม่สำเร็จ",
+        "detailresult_trasition1": "(6905) ข้อมูลที่จำเป็นยังไม่ครบถ้วน <รายการที่>",
+
+        "list_trasition2": "2",
+        "cmd_trasition2": "สร้าง",
+        "personal_trasition2": "123456789012345678",
+        "name_trasition2": "MAX CO LTD",
+        "accountnumber_trasition2": "321059302983",
+        "accountname_trasition2": "BBL",
+        "result_trasition2": "ไม่สำเร็จ",
+        "detailresult_trasition2": "(6905) ข้อมูลที่จำเป็นยังไม่ครบถ้วน <รายการที่>",
+
+        "list_trasition3": "3",
+        "cmd_trasition3": "สร้าง",
+        "personal_trasition3": "123456789012345678",
+        "name_trasition3": "MAX CO LTD",
+        "accountnumber_trasition3": "321059302983",
+        "accountname_trasition3": "BBL",
+        "result_trasition3": "ไม่สำเร็จ",
+        "detailresult_trasition3": "(6905) ข้อมูลที่จำเป็นยังไม่ครบถ้วน <รายการที่>",
+
+        "list_trasition4": "4",
+        "cmd_trasition4": "สร้าง",
+        "personal_trasition4": "123456789012345678",
+        "name_trasition4": "MAX CO LTD",
+        "accountnumber_trasition4": "321059302983",
+        "accountname_trasition4": "BBL",
+        "result_trasition4": "ไม่สำเร็จ",
+        "detailresult_trasition4": "(6905) ข้อมูลที่จำเป็นยังไม่ครบถ้วน <รายการที่>"
+
+}

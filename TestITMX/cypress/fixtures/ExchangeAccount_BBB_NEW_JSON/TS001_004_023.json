@@ -1,0 +1,16 @@
+{
+        "list_all" : "1 รายการ",
+        "list_pass": "0  รายการ",
+        "list_fail": "1 รายการ",
+
+
+        "list_trasition1": "1",
+        "cmd_trasition1": "สร้าง",
+        "personal_trasition1": "12345678901234567811",
+        "name_trasition1": "MAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTDMAXCOLTD",
+        "accountnumber_trasition1": "3210593029831",
+        "accountname_trasition1": "BBL",
+        "result_trasition1": "ไม่สำเร็จ",
+        "detailresult_trasition1": "(6906) รูปแบบข้อมูลไม่ถูกต้อง <หมายเลขนิติบุคคล>"
+
+}

@@ -1,0 +1,86 @@
+Feature: แก้ไขข้อมูลผู้เสียหาย: หมายเลขบัญชี
+
+
+    Scenario: TC-CFR-UPDATE_191 As a Sender Bank (no sub case), able to update sender account number 34 digit on web portal
+      Given login ITMX web portal by CMBT user
+      And search result with case id "25660505CMBT00007"
+      And click edit first record
+      When edit sender account number is "1000009384998882233334898393848493" value
+      Then click edit data
+      And close update page
+      And should be display sender account number on update page is "1000009384998882233334898393848493"
+      Then update sender account number back to original "1000000022"
+
+    Scenario: TC-CFR-UPDATE_192 As a Sender Bank (no sub case), NOT able to update sender account number is EMPTY on web portal
+      Given login ITMX web portal by CMBT user
+      And search result with case id "25660505CMBT00007"
+      And click edit first record
+      When edit sender account number is "EMPTY" value
+      Then should be display error sender account number on screen
+      And click edit data with invalid data
+      And should be display popup error sender account number on update page
+      And should be display sender account number on update page is "1000000022"
+
+    Scenario: TC-CFR-UPDATE_193 As a Sender Bank (no sub case), NOT able to update sender account number is not numberic on web portal
+      Given login ITMX web portal by CMBT user
+      And search result with case id "25660505CMBT00007"
+      And click edit first record
+      When edit sender account number is "1000000022---กหกertwd  " value
+      Then click edit data
+      And close update page
+      And should be display sender account number on update page is "1000000022"
+      Then update sender account number back to original "1000000022"
+
+    Scenario: TC-CFR-UPDATE_194 As a Receving Bank (no sub case), NOT able to update sender account number on web portal
+      Given login ITMX web portal by MHCB user
+      And search result with case id "25660505CMBT00007"
+      When click edit first record
+      Then should be disable field and display account number on update page is "1000000022"
+
+    Scenario: TC-CFR-UPDATE_195 As a Sender Bank (have sub case), NOT able to update sender account number on web portal
+      Given login ITMX web portal by CMBT user
+      And search result with case id "25660505CMBT00004"
+      When click edit first record
+      Then should be disable field and display account number on update page is "1000000022"
+
+    Scenario: TC-CFR-UPDATE_196 As a Receving Bank (have sub case), NOT able to update sender account number on web portal
+      Given login ITMX web portal by MHCB user
+      And search result with case id "25660505CMBT00004"
+      When click edit first record
+      Then should be disable field and display account number on update page is "1000000022"
+
+    Scenario: TC-CFR-UPDATE_197 As a Same Banks of Sender&Receiver (no sub case), able to update sender account number 34 digit on web portal
+      Given login ITMX web portal by CMBT user
+      And search result with case id "25660505CMBT00005"
+      And click edit first record
+      When edit sender account number is "1000009384998882233334898393848493" value
+      Then click edit data
+      And close update page
+      And should be display sender account number on update page is "1000009384998882233334898393848493"
+      Then update sender account number back to original "1000000022"
+
+    Scenario: TC-CFR-UPDATE_198 As a Same Banks of Sender&Receiver (no sub case), NOT able to update sender account number is EMPTY on web portal
+      Given login ITMX web portal by CMBT user
+      And search result with case id "25660505CMBT00005"
+      And click edit first record
+      When edit sender account number is "EMPTY" value
+      Then should be display error sender account number on screen
+      And click edit data with invalid data
+      And should be display popup error sender account number on update page
+      And should be display sender account number on update page is "1000000022"
+
+    Scenario: TC-CFR-UPDATE_199 As a Same Banks of Sender&Receiver (no sub case), NOT able to update sender account number is not numberic on web portal
+      Given login ITMX web portal by CMBT user
+      And search result with case id "25660505CMBT00005"
+      And click edit first record
+      When edit sender account number is "1000000022---กหกertwd  " value
+      Then click edit data
+      And close update page
+      And should be display sender account number on update page is "1000000022"
+      Then update sender account number back to original "1000000022"
+
+    Scenario: TC-CFR-UPDATE_200  As a Same Banks of Sender&Receiver (have sub case), NOT able to update sender account number on web portal
+      Given login ITMX web portal by CMBT user
+      And search result with case id "25660505CMBT00006"
+      When click edit first record
+      Then should be disable field and display account number on update page is "1000000022"

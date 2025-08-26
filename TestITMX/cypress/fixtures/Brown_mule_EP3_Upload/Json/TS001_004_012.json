@@ -1,0 +1,17 @@
+{
+    "list_all" : "1 รายการ",
+    "list_pass": "0  รายการ",
+    "list_fail": "1 รายการ",
+
+
+    "list_trasition1": "1",
+    "cmd_trasition1": "สร้าง",
+    "personal_trasition1": "5739697554778",
+    "banknumber_trasition1": "002",
+    "accountnumber_trasition1": "3139674238",
+    "name_1": "ม้าเงือน1",
+    "lastname_1": "มาลี",
+    "errorNumber_1": "6800",
+    "MessageError_1": "เลขที่บัญชีของบุคคลนี้เข้าเงื่อนไขบัญชีม้าที่สูงกว่าม้าน้ำตาลเข้ม"
+
+}

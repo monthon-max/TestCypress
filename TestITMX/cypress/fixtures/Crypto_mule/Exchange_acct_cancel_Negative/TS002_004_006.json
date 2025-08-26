@@ -1,0 +1,16 @@
+{
+        "list": "1",
+        "cmd": "ยกเลิก",
+        "legal_entity_number": "-",
+        "name_o": "nonbank",
+        "bank_id": "1084002931",
+        "account_number": "BBL",
+        "input_status": "ไม่สำเร็จ",
+        "details": "(6910) ไม่พบเลขที่บัญชีของธนาคารในระบบ",
+
+        "detail": "บันทึกรายการสำเร็จ",
+        "detail_2": "บันทึกรายการสำเร็จ",
+        "TotalTrans": "1 รายการ", 
+        "TransSuccess": "0 รายการ",
+        "TransFail": "1 รายการ"   
+}

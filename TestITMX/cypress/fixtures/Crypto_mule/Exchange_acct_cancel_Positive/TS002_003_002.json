@@ -1,0 +1,37 @@
+
+{
+        "personalId": "",
+        "bank": "BBL",
+        "account_number": "2309999081",
+        "name": "Met",
+        "status": "ACTIVE",
+        
+        
+        "juristic_id_add": "",
+        "bankcodesr_add": "BBL",
+        "account_number_add": "2309999081",
+        "account_namer_add": "Met",
+        "statusr_add": "ACTIVE",
+        "datetimer_add": "",
+
+        "juristic_id_cancel": "",
+        "bankcodesr_cancel": "BBL",
+        "account_numbers_cancel": "2309999081",
+        "account_namer_cancel": "Met",
+        "statusr_cancel": "INACTIVE",
+        "datetimer_cancel": "",
+
+        "list": "1",
+        "cmd": "สร้าง",
+        "legal_entity_number": "-",
+        "name_o": "Met",
+        "bank_id": "2309999081",
+        "input_status": "INACTIVE",
+        "details": "(6911) รองรับคำสั่งประเภท “<ยกเลิก>” เท่านั้น",
+
+        "detail": "บันทึกรายการสำเร็จ",
+        "detail_2": "บันทึกรายการสำเร็จ",
+        "TotalTrans": "1 รายการ", 
+        "TransSuccess": "1 รายการ",
+        "TransFail": "0 รายการ"
+}

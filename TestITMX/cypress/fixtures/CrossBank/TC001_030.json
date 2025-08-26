@@ -1,0 +1,21 @@
+{
+    "bankcaseID" : "25660505CMBT00001",
+
+
+
+
+    "Name_All_1" : "Max Test 1000000022",
+    "Name_1" : "Max Test",
+    "BankName_1" : "BBL",
+    "BankAccount_1" : "1000000022",
+    "Tran_amount_1" : "3",
+    "Money_1" : "30,004.50",
+
+
+    "Name_All_2" : "MMM Test 1000000039",
+    "Name_2" : "MMM Test",
+    "BankName_2" : "MHCB",
+    "BankAccount_2" : "1000000039",
+    "Tran_amount_2" : "3",
+    "Money_2" : "30,004.50"
+}

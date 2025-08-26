@@ -1,0 +1,36 @@
+{
+        "personalId": "395867362849233505",
+        "bank": "BBL",
+        "account_number": "2309583095",
+        "name": "ยาดม",
+        "status": "ACTIVE",
+        
+        
+        "juristic_id_add": "395867362849233505",
+        "bankcodesr_add": "BBL",
+        "account_number_add": "2309583095",
+        "account_namer_add": "ยาดม",
+        "statusr_add": "ACTIVE",
+        "datetimer_add": "",
+
+        "juristic_id_cancel": "395867362849233505",
+        "bankcodesr_cancel": "BBL",
+        "account_numbers_cancel": "2309583095",
+        "account_namer_cancel": "ยาดม",
+        "statusr_cancel": "INACTIVE",
+        "datetimer_cancel": "",
+
+        "list": "1",
+        "cmd": "สร้าง",
+        "legal_entity_number": "-",
+        "name_o": "ยาดม",
+        "bank_id": "2309583095",
+        "input_status": "INACTIVE",
+        "details": "(6911) รองรับคำสั่งประเภท “<ยกเลิก>” เท่านั้น",
+
+        "detail": "บันทึกรายการสำเร็จ",
+        "detail_2": "บันทึกรายการสำเร็จ",
+        "TotalTrans": "1 รายการ", 
+        "TransSuccess": "1 รายการ",
+        "TransFail": "0 รายการ"
+}

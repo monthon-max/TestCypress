@@ -1,0 +1,27 @@
+{
+        "juristic_id_add": "",
+        "bankcodesr_add": "BBL",
+        "account_number_add": "5000070014",
+        "account_namer_add": "ลนบ",
+        "statusr_add": "ACTIVE",
+        "datetimer_add": "",
+
+        "personalId": "",
+        "bank": "BBL",
+        "account_number": "5000070014",
+        "name": "ลนบ",
+        "status": "ACTIVE",
+
+        "juristic_id_cancel": "",
+        "bankcodesr_cancel": "BBL",
+        "account_numbers_cancel": "5000070014",
+        "account_namer_cancel": "ลนบ",
+        "statusr_cancel": "INACTIVE",
+        "datetimer_cancel": "",
+
+        "detail": "บันทึกรายการสำเร็จ",
+        "detail_2": "บันทึกรายการสำเร็จ",
+        "TotalTrans": "1 รายการ", 
+        "TransSuccess": "1 รายการ",
+        "TransFail": "0 รายการ"
+}

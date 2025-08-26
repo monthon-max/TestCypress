@@ -1,0 +1,25 @@
+{
+        "list_all" : "2 รายการ",
+        "list_pass": "0  รายการ",
+        "list_fail": "2 รายการ",
+
+
+        "list_trasition1": "1",
+        "cmd_trasition1": "สร้าง",
+        "personal_trasition1": "123456789012345678",
+        "name_trasition1": "MAX CO LTD",
+        "accountnumber_trasition1": "023345677",
+        "accountname_trasition1": "BBL",
+        "result_trasition1": "ไม่สำเร็จ",
+        "detailresult_trasition1": "(6906) รูปแบบข้อมูลไม่ถูกต้อง <เลขบัญชี>",
+
+        "list_trasition2": "2",
+        "cmd_trasition2": "สร้าง",
+        "personal_trasition2": "123456789012345699",
+        "name_trasition2": "MAX CO LTD",
+        "accountnumber_trasition2": "023345677",
+        "accountname_trasition2": "BBL",
+        "result_trasition2": "ไม่สำเร็จ",
+        "detailresult_trasition2": "(6906) รูปแบบข้อมูลไม่ถูกต้อง <เลขบัญชี>"
+
+}

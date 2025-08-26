@@ -1,0 +1,44 @@
+
+{
+        "list": "1",
+        "cmd": "ยกเลิก",
+        "legal_entity_number": "-",
+        "name_o": "นายบ",
+        "bank_id": "0000000069",
+        "account_number": "BBL",
+        "input_status": "ไม่สำเร็จ",
+        "details": "(6906) รูปแบบข้อมูลไม่ถูกต้อง <รายการที่>",
+
+        "list_2": "2",
+        "cmd_2": "ยี่สิบ",
+        "legal_entity_number_2": "-",
+        "name_o_2": "นะพบ",
+        "bank_id_2": "0000000070",
+        "account_number_2": "BBL",
+        "input_status_2": "ไม่สำเร็จ",
+        "details_2": "(6907) เงื่อนไขของข้อมูลยังไม่ถูกต้อง <ประเภทคำสั่ง>",
+
+        "list_3": "3",
+        "cmd_3": "ยกเลิก",
+        "legal_entity_number_3": "-",
+        "name_o_3": "พะนะ",
+        "bank_id_3": "00000000711111111",
+        "account_number_3": "BBL",
+        "input_status_3": "ไม่สำเร็จ",
+        "details_3": "(6906) รูปแบบข้อมูลไม่ถูกต้อง <เลขบัญชี>",
+
+        "list_4": "4",
+        "cmd_4": "ยกเลิก",
+        "legal_entity_number_4": "-",
+        "name_o_4": ":~!@#$%^&*()_+=-\\/][{}:;/?.><,'rstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzABCDEปป",
+        "bank_id_4": "0000000071",
+        "account_number_4": "BBL",
+        "input_status_4": "ไม่สำเร็จ",
+        "details_4": "(6910) ไม่พบเลขที่บัญชีของธนาคารในระบบ",
+
+        "detail": "บันทึกรายการสำเร็จ",
+        "detail_2": "บันทึกรายการสำเร็จ",
+        "TotalTrans": "4 รายการ", 
+        "TransSuccess": "0 รายการ",
+        "TransFail": "4 รายการ"
+}

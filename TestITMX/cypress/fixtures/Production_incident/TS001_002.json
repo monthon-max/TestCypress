@@ -1,0 +1,27 @@
+{
+
+        "header_moneytrafer": "ข้อมูลการโอนเงิน" ,
+        "label_moneytrafer_date": "วันที่ทำรายการ" ,
+        "label_moneytrafer_time": "เวลาที่ทำรายการ" ,
+        "label_moneytrafer_account": "เลขที่บัญชีผู้รับโอน" ,
+        "label_moneytrafer_bank": "ธนาคารผู้รับโอน" ,
+        "label_moneytrafer_amount": "จำนวนเงิน" ,
+        "label_moneytrafer_instructionID": "instructionID" ,
+        "label_moneytrafer_IP": "IP Address" ,
+
+        "trasition_0_date": "09/05/2566" ,
+        "trasition_0_time": "08:00:00" ,
+        "trasition_0_account": "1900000014" ,
+        "trasition_0_bank": "BBL" ,
+        "trasition_0_amount": "20,000.75" ,
+        "trasition_0_instructionID": "111111111111111" ,
+        "trasition_0_IP": "111.111.11.1" ,
+
+        "trasition_1_date": "09/05/2566" ,
+        "trasition_1_time": "08:00:01" ,
+        "trasition_1_account": "1900000014" ,
+        "trasition_1_bank": "BBL" ,
+        "trasition_1_amount": "20,000.75" ,
+        "trasition_1_instructionID": "111111111111111" ,
+        "trasition_1_IP": "111.111.11.1"
+}

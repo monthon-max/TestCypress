@@ -1,0 +1,17 @@
+
+{
+        "list": "1",
+        "cmd": "ABC",
+        "legal_entity_number": "-",
+        "name_o": "nutest1",
+        "bank_id": "555555566678800",
+        "account_number": "KTB",
+        "input_status": "ไม่สำเร็จ",
+        "details": "(6907) เงื่อนไขของข้อมูลยังไม่ถูกต้อง <ประเภทคำสั่ง>",
+        
+        "detail": "บันทึกรายการสำเร็จ",
+        "detail_2": "บันทึกรายการสำเร็จ",
+        "TotalTrans": "1 รายการ", 
+        "TransSuccess": "0 รายการ",
+        "TransFail": "1 รายการ"
+}

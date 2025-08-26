@@ -1,0 +1,53 @@
+Feature: แก้ไขข้อมูลผู้ต้องสงสัย: ธนาคารผู้ต้องสงสัย
+
+## Sender no sub case ##
+    Scenario: TC-CFR-UPDATE_361 As a Sender Bank (no sub case), NOT able to update receiver bank on web portal
+      Given login ITMX web portal by CMBT user
+      And search result with case id "25660505CMBT00007" with to account number "1000000039" and from account number "1000000022"
+      When click edit first record
+      And edit receiver bank to "ธนาคารกรุงเทพ จำกัด (มหาชน)"
+      Then click edit data
+      And close update page
+      And should be display receiver bank on update page is "ธนาคารกรุงเทพ จำกัด (มหาชน)"
+      And should be display receiver bank on view page is "ธนาคารกรุงเทพ จำกัด (มหาชน)"
+      Then update receiver bank back to original "ธนาคารมิซูโฮ คอร์ปอเรต จำกัด"
+
+## Receiver no sub case ##
+    Scenario: TC-CFR-UPDATE_362 As a Receving Bank (no sub case), NOT able to update receiver bank on web portal
+      Given login ITMX web portal by MHCB user
+      And search result with case id "25660505CMBT00007" with to account number "1000000039" and from account number "1000000022"
+      When click edit first record
+      Then should be disable field and display receiver bank on update page is "ธนาคารมิซูโฮ คอร์ปอเรต จำกัด"
+
+## Sender have sub case ##
+    Scenario: TC-CFR-UPDATE_363 As a Sender Bank (have sub case), NOT able to update receiver bank on web portal
+      Given login ITMX web portal by CMBT user
+      And search result with case id "25660505CMBT00004" with to account number "1000000039" and from account number "1000000022"
+      When click edit first record
+      Then should be disable field and display receiver bank on update page is "ธนาคารมิซูโฮ คอร์ปอเรต จำกัด"
+
+## Receiver have sub case ##
+    Scenario: TC-CFR-UPDATE_364 As a Receving Bank (have sub case), NOT able to update receiver bank on web portal
+      Given login ITMX web portal by MHCB user
+      And search result with case id "25660505CMBT00004" with to account number "1000000039" and from account number "1000000022"
+      When click edit first record
+      Then should be disable field and display receiver bank on update page is "ธนาคารมิซูโฮ คอร์ปอเรต จำกัด"
+
+## Same Bank no sub case ##
+    Scenario: TC-CFR-UPDATE_365 As a Sender Bank (no sub case), NOT able to update receiver bank on web portal
+      Given login ITMX web portal by CMBT user
+      And search result with case id "25660505CMBT00005" with to account number "2000000022" and from account number "1000000022"
+      When click edit first record
+      And edit receiver bank to "ธนาคารกรุงเทพ จำกัด (มหาชน)"
+      Then click edit data
+      And close update page
+      And should be display receiver bank on update page is "ธนาคารกรุงเทพ จำกัด (มหาชน)"
+      And should be display receiver bank on view page is "ธนาคารกรุงเทพ จำกัด (มหาชน)"
+      Then update receiver bank back to original "ธนาคาร ซีไอเอ็มบี ไทย จำกัด (มหาชน)"
+
+## Same Bank have sub case ##
+    Scenario: TC-CFR-UPDATE_366 As a Sender Bank (no sub case), NOT able to update receiver bank on web portal
+      Given login ITMX web portal by CMBT user
+      And search result with case id "25660505CMBT00006" with to account number "2000000022" and from account number "1000000022"
+      When click edit first record
+      Then should be disable field and display receiver bank on update page is "ธนาคาร ซีไอเอ็มบี ไทย จำกัด (มหาชน)"

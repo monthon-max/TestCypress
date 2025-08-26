@@ -1,0 +1,16 @@
+{
+        "list": "1",
+        "cmd": "สร้าง",
+        "personal_Id": "9999999999991",
+        "bank_id": "002",
+        "account_number": "99999932131",
+        "name_o": "QA",
+        "last_name_o": "TESTER",
+        "input_status": "6808",
+        "detail": "บันทึกรายการสำเร็จ",
+        "detail_2": "บันทึกรายการสำเร็จ",
+        "TotalTrans": "1 รายการ", 
+        "TransSuccess": "1",
+        "TransFail": "0 รายการ" 
+
+}

@@ -1,0 +1,87 @@
+{
+  "name": "cypress-cucumber-test-example",
+  "version": "1.0.0",
+  "description": "This is a simple project that demonstrates e2e testing with using cypress.io and cucumber.js",
+  "main": "index.js",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^13.17.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-file-upload": "^5.0.8",
+    "esbuild": "^0.17.12",
+    "eslint": "^8.36.0",
+    "eslint-plugin-chai-friendly": "^0.7.2",
+    "eslint-plugin-cypress": "^2.13.2",
+    "fs-extra": "^11.3.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0",
+    "node-xlsx": "^0.23.0",
+    "prettier": "^2.8.6"
+  },
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "D:/CFR/WEB/itmx-cfr-web-cypress/package.json"
+      ],
+      "url": "D:/CFR/WEB/itmx-cfr-web-cypress/schema.json"
+    }
+  ],
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/e2e/*/**/*.{js,ts}"
+  },
+  "scripts": {
+    "test": "cypress run --e2e --browser chrome --spec **/*.feature",
+    "test_p": "cypress run --e2e --browser chrome --spec **/UpdateCaseReceiverPromptPay_MasterCase.feature",
+    "create_case": "cypress run --e2e --browser chrome --spec **/create_case_scenario/createCaseScenario_11.feature",
+    "Query_test": "cypress run --e2e --browser chrome --spec **/create_case_scenario/QuerySQL.feature",
+    "createnegative_case_105": "cypress run --e2e --browser chrome --spec **/create_case_scenario/createMasterCaseNegative_*.feature",
+    "create_case_105": "cypress run --e2e --browser chrome --spec **/create_case_scenario/createCaseScenario_*.feature",
+    "create_case_05": "cypress run --e2e --browser chrome --spec **/create_case_scenario/createCaseScenario_1.feature",
+    "create_case_master": "cypress run --e2e --browser chrome --spec **/create_case_scenario/createMasterCase*.feature",
+    "create_case_sub": "cypress run  --headless --e2e --browser chrome --spec **/create_case_scenario/createSubCase*.feature",
+    "Websearch_CFR_Mule": "cypress run  --headless --e2e --browser chrome --spec **/web_seach/CFR_Mule/*.feature",
+    "Websearch_CFR_Brown_Mule": "cypress run  --headless --e2e --browser chrome --spec **/web_seach/CFR_Brown_Mule_EP2/*.feature",
+    "Websearch_CFR_Withdraw_Black_Mule": "cypress run  --headless --e2e --browser chrome --spec **/web_seach/CFR_Withdraw_Mule_Black/*.feature",
+    "Brown_mule_EP3": "cypress run  --headless --e2e --browser chrome --spec **/Brown_mule_EP3/*.feature",
+    "Dark_brown_mule": "cypress run  --headless --e2e --browser chrome --spec **/Dark_brown_mule/*.feature",
+    "Wary_Juristic_mule": "cypress run  --headless --e2e --browser chrome --spec **/Wary_Juristic_mule/*.feature",
+    "Crypto_Mule": "cypress run  --headless --e2e --browser chrome --spec **/Crypto_Mule/*.feature",
+    "create_case_Test": "cypress run --e2e --browser chrome --spec **/create_case_scenario/createMasterCaseNegative_TransactionDetail.feature",
+    "create_case1": "cypress run --e2e --browser chrome --spec **/create_case_scenario/createMasterCaseNegative_CaseDetail.feature",
+    "create_case2": "cypress run --e2e --browser chrome --spec **/create_case_scenario/createMasterCaseNegative_PayerDetail.feature",
+    "crossbank": "cypress run --e2e --browser chrome --spec **/cross_bank/*.feature",
+    "CFR_new_template": "cypress run --e2e --browser chrome --spec **/CFR_new_template/*.feature",
+    "new_upload_mastercase": "cypress run --e2e --browser chrome --spec **/CFR_new_template/upload_master_case/*.feature",
+    "new_upload_mastercase_mandatory": "cypress run --e2e --browser edge --spec TAGS='@mandatory' **/CFR_new_template/upload_master_case/*.feature",
+    "new_upload_subcase_MBs": "cypress run --e2e --browser chrome --spec **/CFR_new_template/upload_subcase_MBs/*.feature",
+    "new_upload_subcase_MBs_mandatory": "cypress run --e2e --browser edge --spec TAGS='@mandatory' **/CFR_new_template/upload_subcase_MBs/*.feature",
+    "runNegative": "npm run create_case_master && npm run create_case_sub",
+    "pretty": "prettier --write \"./**/*.{yml,js,jsx,json}\"",
+    "combine-reports": "npx mochawesome-merge cypress/results/*.json > mochawesome.json",
+    "generate-report": "npm run combine-reports && npx marge mochawesome.json",
+    "posttest": "npm run combine-reports && npm run generate-report",
+    "callApi": "cypress run --e2e --browser chrome --spec **/step_definitions/CallAPI.js",
+    "cy:open": "cypress open --e2e --browser chrome",
+    "clean:reports": "DEL mochawesome.json"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.1",
+    "constants": "^0.0.2",
+    "dayjs": "^1.11.12",
+    "mysql2": "^3.11.5",
+    "neo4j-driver": "^5.7.0",
+    "node-xlsx": "^0.4.0",
+    "oracledb": "^6.7.1",
+    "path": "^0.12.7",
+    "stream": "^0.0.2",
+    "xlsx": "^0.18.5"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.itmx.co.th/itmxqa/itmx-cfr-web-cypress.git"
+  }
+}

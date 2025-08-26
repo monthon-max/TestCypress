@@ -1,0 +1,16 @@
+{
+    "list_all" : "1 รายการ",
+    "list_pass": "0  รายการ",
+    "list_fail": "1 รายการ",
+
+
+    "list_trasition1": "1",
+    "cmd_trasition1": "สร้าง",
+    "personal_trasition1": "6172353159204",
+    "banknumber_trasition1": "002",
+    "accountnumber_trasition1": "5943098777",
+    "name_1": "max",
+    "lastname_1": "xis",
+    "errorNumber_1": "6802",
+    "MessageError_1": "รายการดังกล่าวมีหมายเลข รายการที่ ไม่ถูกต้องตามลำดับ"
+}

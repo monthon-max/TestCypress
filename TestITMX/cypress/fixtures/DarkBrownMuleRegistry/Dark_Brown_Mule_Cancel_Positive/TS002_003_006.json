@@ -1,0 +1,17 @@
+{
+        "list": "1",
+        "cmd": "ยกเลิก",
+        "personal_Id": "6515150353352",
+        "bank_id": "002",
+        "account_number": "3000450014",
+        "name_o": "เธอ",
+        "last_name_o": "สวย",
+        "input_status": "6806",
+        "details": "รูปแบบข้อมูลไม่ถูกต้อง <รายการที่>",
+
+        "detail": "บันทึกรายการสำเร็จ",
+        "detail_2": "บันทึกรายการสำเร็จ",
+        "TotalTrans": "1 รายการ", 
+        "TransSuccess": "1 รายการ",
+        "TransFail": "0 รายการ"
+}

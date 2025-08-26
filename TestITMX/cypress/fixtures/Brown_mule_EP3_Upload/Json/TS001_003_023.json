@@ -1,0 +1,26 @@
+{
+    "list_all" : "2 รายการ",
+    "list_pass": "0  รายการ",
+    "list_fail": "2 รายการ",
+
+
+    "list_trasition1": "1",
+    "cmd_trasition1": "สร้าง",
+    "personal_trasition1": "5878945743698",
+    "banknumber_trasition1": "002",
+    "accountnumber_trasition1": "5943098666",
+    "name_1": "max",
+    "lastname_1": "xis",
+    "errorNumber_1": "6805",
+    "MessageError_1": "ข้อมูลที่จำเป็นยังไม่ครบถ้วน <รายการที่>",
+
+    "list_trasition2": "2",
+    "cmd_trasition2": "สร้าง",
+    "personal_trasition2": "5878945743698",
+    "banknumber_trasition2": "002",
+    "accountnumber_trasition2": "5943098667",
+    "name_2": "max2",
+    "lastname_2": "",
+    "errorNumber_2": "6805",
+    "MessageError_2": "ข้อมูลที่จำเป็นยังไม่ครบถ้วน <นามสกุล บัญชีที่ต้องสงสัย>"
+}

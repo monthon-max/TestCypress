@@ -1,0 +1,26 @@
+
+{
+        "list": "1",
+        "cmd": "ยกเลิก",
+        "legal_entity_number": "-",
+        "name_o": "tetstt",
+        "bank_id": "900000078907780",
+        "account_number": "KTB",
+        "input_status": "ไม่สำเร็จ",
+        "details": "(6909) มีบางรายการในไฟล์มีข้อมูลเลขที่บัญชีซ้ำกัน",
+
+        "list_2": "2",
+        "cmd_2": "ยกเลิก",
+        "legal_entity_number_2": "-",
+        "name_o_2": "tetstt01",
+        "bank_id_2": "900000078907780",
+        "account_number_2": "KTB",
+        "input_status_2": "ไม่สำเร็จ",
+        "details_2": "(6909) มีบางรายการในไฟล์มีข้อมูลเลขที่บัญชีซ้ำกัน",
+
+        "detail": "บันทึกรายการสำเร็จ",
+        "detail_2": "บันทึกรายการสำเร็จ",
+        "TotalTrans": "2 รายการ", 
+        "TransSuccess": "0 รายการ",
+        "TransFail": "2 รายการ"
+}

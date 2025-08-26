@@ -1,0 +1,16 @@
+{
+        "list": "1",
+        "cmd": "สร้าง",
+        "personal_Id": "3000000020002",
+        "bank_id": "002",
+        "account_number": "30000020002",
+        "name_o": "qa",
+        "last_name_o": "wrmamamamamamamamamasamamamamamamamamamahamamamamamamamamamakamamamamamamamamamapamamamamamamamamamalamamamamamamamamamasamamamamamamamamamahamamamamamamamamamakamamamamamamamamamapamamamamamamamamamatatatatatatatatatatatatatatatatatatatatatatatatatadsawep",
+        "input_status": "6808",
+        "details": "มีข้อมูลเลขบัตรประชาชนและเลขที่บัญชีของธนาคารนี้ซ้ำ ซึ่งถูกบันทึกเป็นบัญชีม้าน้ำตาลแล้ว",
+        "detail": "บันทึกรายการสำเร็จ",
+        "detail_2": "บันทึกรายการสำเร็จ",
+        "TotalTrans": "1 รายการ", 
+        "TransSuccess": "1 รายการ",
+        "TransFail": "0 รายการ" 
+}

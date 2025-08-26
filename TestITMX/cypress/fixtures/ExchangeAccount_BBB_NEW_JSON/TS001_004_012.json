@@ -1,0 +1,16 @@
+{
+        "list_all" : "1 รายการ",
+        "list_pass": "0  รายการ",
+        "list_fail": "1 รายการ",
+
+
+        "list_trasition1": "1",
+        "cmd_trasition1": "สร้าง",
+        "personal_trasition1": "123456789012345678",
+        "name_trasition1": "MAX CO LTD",
+        "accountnumber_trasition1": "01234567899876543",
+        "accountname_trasition1": "BBL",
+        "result_trasition1": "ไม่สำเร็จ",
+        "detailresult_trasition1": "(6906) รูปแบบข้อมูลไม่ถูกต้อง <เลขบัญชี>"
+
+}
